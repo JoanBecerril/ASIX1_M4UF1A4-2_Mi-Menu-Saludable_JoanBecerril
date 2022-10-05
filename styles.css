@@ -1,0 +1,123 @@
+html {
+    background-color: #21222c;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+}
+
+.volvertexto {
+    text-decoration: none;
+    color: white;
+}
+
+.textos {
+    color: white;
+}
+
+.fotosreceta {
+    width: 35vh;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+#lasagna {
+    height: 40vh;
+    width: 60vh;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#milanesa {
+    height: 40vh;
+    width: 60vh;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#coulant {
+    height: 40vh;
+    width: 60vh;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#coulant2 {
+    height: 40vh;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.flecha {
+    height: 6vh;
+    width: 6vh;
+    filter: invert(1);
+}
+
+.container {
+    width: 30%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.container>.crop {
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
